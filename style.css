@@ -1,0 +1,40 @@
+body{
+    text-align: center; /* Centra todo el texto de la página */
+    background-color: white; /* Pone el fondo de la página en blanco */
+}
+
+#calculadora{
+    margin: auto; /* Centra la calculadora horizontalmente */
+    border: 3px solid black; /* Borde negro y grueso alrededor de la calculadora */
+    width: 400px; /* Ancho fijo de la calculadora */
+    height: 520px; /* Alto fijo de la calculadora */
+    background-color: #d2d2d2; /* Fondo gris claro para la calculadora */
+    padding: 10px; /* Espacio interno entre el borde y el contenido */
+}
+
+#pantalla{
+    background-color: #f0ffff; /* Fondo celeste muy claro para la pantalla */
+    height: 50px; /* Altura de la pantalla */
+    padding: 4px; /* Espacio interno para el texto */
+    border: 1px solid black; /* Borde negro delgado alrededor de la pantalla */
+    color: black; /* Texto negro en la pantalla */
+    text-align: right; /* El texto aparece alineado a la derecha */
+    font-size: 25px; /* Tamaño grande de letra */
+    margin-bottom: 10px; /* Espacio debajo de la pantalla para separar del teclado */
+}
+
+#teclado div{
+    padding: 5px; /* Espacio alrededor de cada fila de botones */
+}
+
+#teclado div div {
+    float: left; /* Coloca los botones se colocan uno al lado del otro */
+    padding: 40px; /* Hace que los botones sean grandes */
+    border: 1px solid black; /* Borde negro delgado para cada botón */
+    margin: 1px; /* Espacio pequeño entre los botones */
+    width: 13px; /* Ancho pequeño para que los botones sean cuadrados */
+    font-size: 25px; /* Letra grande en los botones */
+    font-weight: bolder; /* Texto en negrita */
+    background-color: #d2d2d2; /* Fondo gris claro para los botones */
+    cursor: pointer; /* El cursor cambia a una mano al pasar el mouse */
+}
